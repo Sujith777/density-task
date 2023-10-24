@@ -4,6 +4,7 @@ import Features from "@/components/Features";
 import Meet from "@/components/Meet";
 import SelfImprovement from "@/components/SelfImprovement";
 import Ratings from "@/components/Ratings";
+import Privacy from "@/components/Privacy";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Meet />
       <SelfImprovement />
       <Ratings />
+      <Privacy />
     </main>
   );
 }

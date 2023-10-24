@@ -4,7 +4,7 @@ import { FaApple, FaStar } from "react-icons/fa";
 
 const Main = () => {
   return (
-    <div className="relative flex items-center mx-4 justify-between bg-[url('https://images.unsplash.com/photo-1512149673953-1e251807ec7c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] rounded-2xl mt-20">
+    <div className="relative flex items-center mx-8 justify-between bg-[url('https://images.unsplash.com/photo-1512149673953-1e251807ec7c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] rounded-2xl mt-20">
       <div className="flex h-full basis-1/2 px-16 py-2 flex-col text-white p-4 gap-4">
         <p className="text-md">Ahead app</p>
         <h1 className="text-6xl tracking-wider w-[80%] leading-normal">

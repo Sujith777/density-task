@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Main from "@/components/Main";
 import Features from "@/components/Features";
+import Meet from "@/components/Meet";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Main />
       <Features />
+      <Meet />
     </main>
   );
 }

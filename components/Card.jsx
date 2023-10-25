@@ -4,7 +4,7 @@ import React from "react";
 const Card = ({ emoji, title, text, color }) => {
   return (
     <div
-      className="flex flex-col gap-2 p-4 rounded-lg col-span-1 h-full"
+      className="flex flex-col justify-center items-center text-center gap-2 p-4 rounded-lg h-full"
       style={{
         backgroundColor: `${color}`,
       }}

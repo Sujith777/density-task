@@ -3,7 +3,7 @@ import React from "react";
 
 const Meet = () => {
   return (
-    <div className="flex flex-col gap-16 relative py-16 mx-8 px-16 rounded-lg bg-[url('https://images.unsplash.com/photo-1538438253612-287c9fc9217e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]">
+    <div className="flex h-[80vh] my-10 flex-col gap-16 relative p-16 mx-8 rounded-lg bg-[url('https://images.unsplash.com/photo-1538438253612-287c9fc9217e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]">
       <div className="flex flex-col gap-4">
         <p className="text-md">Built out of frustration</p>
         <p className="text-6xl font-bold">Meet the ahead app</p>

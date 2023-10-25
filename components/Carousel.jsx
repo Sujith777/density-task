@@ -4,7 +4,7 @@ import Card from "./Card";
 
 const Carousel = () => {
   return (
-    <div className="w-full grid grid-cols-4 grid-flow-row justify-center items-center h-full relative gap-8">
+    <div className="w-full px-12 grid auto-cols-[minmax(360px,_1fr)] grid-cols-[minmax(360px-4rem,_1fr)] grid-flow-col overflow-x-auto items-center h-[250px] relative gap-8">
       {cardItems.map((item) => (
         <Card
           key={item.id}

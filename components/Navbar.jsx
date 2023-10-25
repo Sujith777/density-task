@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="w-full sticky py-4 px-16 flex items-center justify-between">
+    <div className="w-full sticky py-4 px-20 flex items-center justify-between">
       <div className="flex justify-center items-center">
         <Image
           className="rounded-lg overflow-hidden object-cover"

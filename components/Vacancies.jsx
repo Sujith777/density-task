@@ -52,8 +52,8 @@ const Vacancies = () => {
 
       <hr className="my-2 font-semibold" />
 
-      <div className="flex flex-col justify-center items-center gap-4">
-        <div className="flex flex-col justify-center items-center gap-2">
+      <div className="flex flex-col justify-center items-center gap-2">
+        <div className="flex flex-col justify-center items-center">
           <Image
             className="object-cover rounded-lg"
             src="/favicon-32x32.png"

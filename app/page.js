@@ -10,9 +10,11 @@ import Vacancies from "@/components/Vacancies";
 
 export default function Home() {
   return (
-    <main className="w-full relative">
-      <Navbar />
-      <Main />
+    <main className="w-full flex flex-col justify-center items-center gap-20 h-full relative">
+      <div className="h-screen flex flex-col">
+        <Navbar />
+        <Main />
+      </div>
       <Features />
       <Meet />
       <SelfImprovement />

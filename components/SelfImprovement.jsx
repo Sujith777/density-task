@@ -3,7 +3,7 @@ import React from "react";
 
 const SelfImprovement = () => {
   return (
-    <div className="flex flex-col gap-16 relative py-16 mx-8 px-16">
+    <div className="flex h-screen flex-col gap-20 relative mx-8 p-16">
       <div className="flex flex-col gap-4">
         <p className="text-lg">
           What&apos;s wrong with self-improvement & how we&apos;re fixing it
@@ -19,7 +19,7 @@ const SelfImprovement = () => {
           />
         </div>
       </div>
-      <div className="flex flex-col gap-8 mx-auto w-[40%]">
+      <div className="flex flex-col gap-4 mx-auto h-[60%] overflow-auto w-[40%]">
         <ul className="list-disc flex flex-col gap-8">
           <li>
             <div className="flex flex-col gap-4">
@@ -81,7 +81,7 @@ const SelfImprovement = () => {
           </li>
         </ul>
       </div>
-      <div className="flex gap-8 my-8 p-8">
+      <div className="flex gap-8 px-8">
         <div className="flex basis-1/3">
           <p className="text-2xl font-bold">Be the best you with EQ</p>
         </div>

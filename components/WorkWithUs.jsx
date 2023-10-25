@@ -3,7 +3,7 @@ import React from "react";
 
 const WorkWithUs = () => {
   return (
-    <div className="flex relative gap-8 py-16 bg-violet-200 rounded-lg px-32 mx-8">
+    <div className="flex h-screen relative gap-8 py-16 bg-violet-200 rounded-lg px-32 mx-8">
       <div className="flex sticky basis-1/2 flex-col gap-8 p-4">
         <p className="text-4xl font-bold">Work with us</p>
         <div className="flex flex-col my-4 w-[80%] gap-4">

@@ -2,7 +2,7 @@ import React from "react";
 
 const Privacy = () => {
   return (
-    <div className="w-[50%]  text-center p-16 m-auto">
+    <div className="w-full h-screen text-center p-16 flex justify-center items-center">
       <div className="text-lg flex flex-col justify-center items-center gap-4">
         <p>We take privacy seriously</p>
         <p className="text-3xl font-bold">Before you get started</p>

@@ -6,6 +6,7 @@ import SelfImprovement from "@/components/SelfImprovement";
 import Ratings from "@/components/Ratings";
 import Privacy from "@/components/Privacy";
 import WorkWithUs from "@/components/WorkWithUs";
+import Vacancies from "@/components/Vacancies";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Ratings />
       <Privacy />
       <WorkWithUs />
+      <Vacancies />
     </main>
   );
 }
